@@ -97,9 +97,10 @@ body {
 
     cursor: pointer;
 
+
     background-color: var(--bg-frosted-black);
+        -webkit-backdrop-filter: var(--bg-blur);
     backdrop-filter: var(--bg-blur);
-    -webkit-backdrop-filter: var(--bg-blur);
 
     &:hover {
         transition: var(--transition);
